@@ -1,0 +1,154 @@
+/* .Cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    justify-content: center;
+ 
+ }
+ .pessoas {
+    width:29vw;
+    height: 60vh;
+     display: grid;
+    background-color: rgb(178, 174, 174);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+     grid-template-columns: repeat(4, 1fr); /* Define 3 colunas com largura igual */
+     gap: 10px; /* Define o espaçamento entre as colunas e linhas */
+     border-radius: 10px;
+ }
+ 
+ .foto-smb {
+    background-color: yellow;
+    margin-left: 15px;
+    margin-top: 25px;
+     grid-column: 1 / 2; /* Define a posição da foto na primeira coluna */
+     grid-row: 1 / 5; /* Define a posição da foto nas três primeiras linhas */
+ }
+ 
+ .nome {
+    margin-top: 25px;
+    font-size: 30px;
+   background-color: green;
+     grid-column: 3 / 4; /* Define a posição do nome na segunda e terceira colunas */
+     grid-row: 1 / 2; /* Define a posição do nome na primeira linha */
+ }
+ 
+ .idade {
+    font-size: 25px;
+    background-color: #008FBE;
+     grid-column: 3/ 4; /* Define a posição da idade na segunda e terceira colunas */
+     grid-row: 2 / 3; /* Define a posição da idade na segunda linha */
+ }
+ 
+ .texto {
+    background-color: red;
+    font-size: 20px;
+    margin-top: 40px;
+     grid-column: 1 / 4; /* Define a posição do texto na segunda e terceira colunas */
+     grid-row: 3 / 4; /* Define a posição do texto na terceira linha */
+ }
+ 
+ .links {
+     grid-column: 1 / 2; /* Define a posição dos ícones de link na primeira coluna */
+     grid-row: 4 / 5; /* Define a posição dos ícones de link na quarta linha */
+ }
+ 
+ .links {
+    background-color: #020F84;
+     grid-column: 3 / 3; /* Define a posição do segundo ícone de link na segunda coluna */
+ }
+ .foto{
+    display: grid;
+    border-radius: 60%;
+    height:17vh;
+       box-shadow: 5px 1px 100px rgba(8, 181, 255, 0.2);
+    background-color: yellow;
+       
+    width: 8vw;
+ } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .Cards{
+   display: flex;
+   justify-content: center;
+   gap: 20vh;
+ }
+  .pessoas {
+     width:80vh;
+     height: 40vh;
+      display: grid;
+     background-color: rgb(178, 174, 174);
+     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+      grid-template-areas:2fr 2fr; /* Define 3 colunas com largura igual */
+      
+      gap: 10px; /* Define o espaçamento entre as colunas e linhas */
+      border-radius: 10px;
+  }
+  
+  .foto-smb {
+     /* background-color: yellow; */
+     margin-left: 15px;
+     margin-top: 25px;
+      grid-column: 1 / 2; /* Define a posição da foto na primeira coluna */
+      grid-row: 1 / ; /* Define a posição da foto nas três primeiras linhas */
+  }
+  
+  .nome {
+     margin-top: 25px;
+     font-size: 40px;
+    /* background-color: green; */
+      grid-column: 2 / 4; /* Define a posição do nome na segunda e terceira colunas */
+      grid-row: 1 / 4; /* Define a posição do nome na primeira linha */
+  }
+  
+  .idade {
+     font-size: 10px;
+     /* background-color: #008FBE; */
+      margin-left: 20px;
+      grid-column: 2/ 4; /* Define a posição da idade na segunda e terceira colunas */
+      grid-row:  2/ 4; /* Define a posição da idade na segunda linha */
+  }
+  
+  .texto {
+     background-color: red;
+     font-size: 20px;
+     margin-left: 30px;
+     overflow-wrap: break-word;
+     margin-right: 30px;
+     margin-top: 20vh;
+      grid-column: 1 / 4; /* Define a posição do texto na segunda e terceira colunas */
+      grid-row: 3 / 4; /* Define a posição do texto na terceira linha */
+  }
+  
+  .links {
+      grid-column: 3/ 4; /* Define a posição dos ícones de link na primeira coluna */
+      grid-row: 3 /4; /* Define a posição dos ícones de link na quarta linha */
+      margin-left: 0px;
+  }
+  
+ 
+  .foto{
+     display: grid;
+     border-radius: 60%;
+     height:20vh;
+     width: 20vh;
+     box-shadow: 5px 1px 100px rgba(8, 181, 255, 0.2);
+     /* background-color: yellow; */
+     margin-left: 10px;
+     margin-top: 10px;
+  }
